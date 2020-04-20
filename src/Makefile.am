@@ -1,7 +1,7 @@
 AUTOMAKE_OPTIONS = subdir-objects
 ACLOCAL_AMFLAGS = $(ACLOCAL_FLAGS)
 
-bin_PROGRAMS = docker_compose_multistage
+bin_PROGRAMS = docker-compose-multistage
 docker_compose_multistage_CPPFLAGS = -std=c++17
 docker_compose_multistage_LDFLAGS = -lyaml-cpp
 docker_compose_multistage_SOURCES = main.cpp \
