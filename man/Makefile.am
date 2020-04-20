@@ -1,0 +1,1 @@
+man_MANS = docker-compose-multistage.1
